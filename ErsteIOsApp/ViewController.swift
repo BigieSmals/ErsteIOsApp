@@ -11,6 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        println(manager.importer.filename)
+
+
+        let text = "Hello World"
         // Do any additional setup after loading the view.
     }
 
